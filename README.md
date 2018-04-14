@@ -15,6 +15,8 @@ Here's a YouTube video of it in action:
 
 If you don't like my boring arrows, make any indicator animation you want using my 8x8 LED byte generator found on my [LED_byte_matrix_generator repo](https://github.com/simonwongwong/LED_byte_matrix_generator)
 
+Full parts and tools requirements can be found on the [Arduino Project Hub page](https://create.arduino.cc/projecthub/simonwongwong/bluetooth-enabled-bicycle-turn-signal-2f4f5d)
+
 Diagram for handlebar/controller:
 
 ![Inside the handlebars](pictures/handlebars_wiring.jpg)
