@@ -9,9 +9,14 @@ I wanted something waterproof that I can use in the rain, and something detachab
 
 The plan was to have a couple of switches embedded into the handlebars (for power and for turn signal), use a Bluetooth transmitter (HC-05) for communication, and have an Arduino Nano to control it all with an 18650 lithium-ion battery (controlled with a 134N3P chip) for power. On the other end of the bike, there are two 8x8 LED matrices controlled by MAX7219 controllers, a Bluetooth receiver (HC-05), an ATMEGA328P chip to control all the components and an 18650 (or 14500) lithium-ion battery for power. I also added a Qi wireless charging receiver to charge the battery without opening the lights enclosure.
 
-Here's a YouTube video of it in action:
+Here's a gif of it in action:
 
-[![YouTube video thumbnail](https://img.youtube.com/vi/5KMD66OUnJ0/0.jpg)](https://www.youtube.com/watch?v=5KMD66OUnJ0)
+![it's working!](pictures/mounted_test.gif)
+
+A closeup of the updated slim case with all the gubbins:
+![slim_case.jpg](pictures/slim_case.jpg)
+![moving](pictures/working.gif)
+
 
 If you don't like my boring arrows, make any indicator animation you want using my 8x8 LED byte generator found on my [LED_byte_matrix_generator repo](https://github.com/simonwongwong/LED_byte_matrix_generator)
 
@@ -20,6 +25,10 @@ Full parts and tools requirements can be found on the [Arduino Project Hub page]
 Diagram for handlebar/controller:
 
 ![Inside the handlebars](pictures/handlebars_wiring.jpg)
+
+Internals:
+
+![Internals of handlebars](pictures/handlebars.jpg)
 
 Note: Bluetooth module, Arduino Nano and PCB separated from battery by a long ~1m cable
 
@@ -30,6 +39,22 @@ Image of handlebar batteries:
 Diagram for lights enclosure:
 
 ![lights wiring](pictures/lights_wiring.jpg)
+
+Testing lights before gluing everything and closing the case:
+
+![testing](pictures/testing.gif)
+
+Mounted on my bike:
+
+![mounted](pictures/mounted.gif)
+
+Message me for more details if you want to make one for yourself
+
+Thanks for reading!
+
+
+
+(OLD PICTURES BELOW)
 
 Lights enclosure with breadboards wired up:
 
@@ -43,4 +68,3 @@ Fully assembled:
 
 ![assembled](pictures/assembled.jpg)
 
-Currently working on slimming down the rear light enclosure using a more rugged case, also working on a new attachment mechanism.
