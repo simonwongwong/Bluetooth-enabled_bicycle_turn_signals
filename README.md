@@ -46,15 +46,16 @@ Diagram for lights enclosure:
 
 # Variation/upgrade ideas
 
-* Reed switch to control power to the lights. If your case is too slim for a toggle switch (like my latest iteration) or you're worried about the waterproof-ness of the case, a reed switch could be used.
+* **Reed switch to control power to the lights**. If your case is too slim for a toggle switch (like my latest iteration) or you're worried about the waterproof-ness of the case, a reed switch could be used.
   - New wiring diagram:
    ![with reed switch](pictures/lights_wiring_reed.jpg)
   - A magnet attached to the light mount can turn the lights on and the lights can be turned off by taking the lights off the mount
   - Or a second magnet can be used to change the flux path and open the reed switch like so:
    ![flux change](pictures/flux_change.gif)
-* Neopixel rings and jewels as a turn signal, like a car with the outer ring in red and the inner jewel lit up amber and flashing when turning
+* **Neopixel rings and jewels as a turn signal**, like a car with the outer ring in red and the inner jewel lit up amber and flashing when turning
+
    ![neopixel idea](pictures/neopixel.jpg)
-* Add an accelerometer to detect slowing down and display a slowing down animation or flash amber lights
+* **Add an accelerometer** to detect slowing down and display a slowing down animation or flash amber lights
 
 # Pictures of the build
 
