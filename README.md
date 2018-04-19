@@ -99,3 +99,4 @@ Fully assembled:
 
 ![assembled](pictures/assembled.jpg)
 
+![Analytics](https://ga-beacon.appspot.com/UA-117909409-1/Bluetooth-enabled_bicycle_turn_signals/readme?pixel)
