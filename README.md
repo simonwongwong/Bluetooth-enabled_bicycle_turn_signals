@@ -57,6 +57,8 @@ Diagram for lights enclosure:
    ![neopixel idea](pictures/neopixel.jpg)
 * **Add an accelerometer** to detect slowing down and display a slowing down animation or flash amber lights
 
+* **Use large/bright LED strips on the seatstays instead of LED matrix for better visibility** Because the LED matrix is hard to see, especially in the daylight, a better/more obvious variant of this project can be built with bright LED strips attached to the seatstays of the bike. While this will improve visibility, it won't be as removable. Another similar idea is to use bright LED strips protruding as rods (horizontally, left and right) and blink them like [this](https://i.imgur.com/lOJ0493.jpg).
+
 # Pictures of the build
 
 Internals:
